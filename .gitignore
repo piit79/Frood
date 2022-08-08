@@ -8,6 +8,7 @@
 *.kicad_pcb-bak
 *.sch-bak
 *~
+*-backups/
 _autosave-*
 \#auto_saved_files\#
 *.tmp
@@ -26,3 +27,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+jlcpcb/assembly/
+jlcpcb/gerber/
