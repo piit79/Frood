@@ -1,6 +1,5 @@
 (fp_lib_table
   (lib (name "42keebs")(type "KiCad")(uri "${KIPRJMOD}/42keebs-kicad/footprints")(options "")(descr ""))
-  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
   (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2040_minimal/RP2040_minimal.pretty")(options "")(descr ""))
   (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/Type-C.pretty")(options "")(descr ""))
 )
