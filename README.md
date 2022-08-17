@@ -1,5 +1,7 @@
 # The Frood
 
+<img src="https://github.com/piit79/Frood/blob/main/Frood.png?raw=true" width="250" align="right">
+
 **Warning: This project is still a work in progress and hasn't been fully verified.**
 
 The Frood is a Pro Micro-like microcontroller module based on a Raspberry Pi RP2040. It is physically and electrically compatible with Elite-C / nice!nano as much as possible.
