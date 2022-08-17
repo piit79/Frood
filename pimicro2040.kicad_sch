@@ -3740,7 +3740,7 @@
     (property "Reference" "F1" (id 0) (at 30.48 98.4249 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "350 mA" (id 1) (at 30.48 100.9649 0)
+    (property "Value" "500 mA" (id 1) (at 30.48 100.9649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 29.845 104.775 0)
@@ -3781,7 +3781,7 @@
     (property "Value" "HRO-TYPE-C-31-M-13" (id 1) (at 29.21 35.56 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "42keebs:Molex-216990_GCT-USB45xx_HRO-TYPE-C-31-M-13x-PiMicro" (id 2) (at 34.925 52.705 0)
+    (property "Footprint" "42keebs:TYPE-C-31-M-14-PiMicro" (id 2) (at 34.925 52.705 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 34.925 52.705 0)
@@ -4992,7 +4992,7 @@
       (reference "D1") (unit 1) (value "1N5819WS") (footprint "Diode_SMD:D_SOD-323F")
     )
     (path "/1cbc711f-80b0-45aa-94e6-0b22f9359dc1"
-      (reference "F1") (unit 1) (value "350 mA") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "F1") (unit 1) (value "500 mA") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/f3b860f9-2f72-404a-8457-15541bcc5c5b"
       (reference "J1") (unit 1) (value "Left") (footprint "42keebs:PinHeader_1x13_P2.54mm_Vertical_ProMicro-Left")
@@ -5061,7 +5061,7 @@
       (reference "U3") (unit 1) (value "TLV73333PDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/22bd63ac-0dc8-46a4-b634-819479c04be4"
-      (reference "USB1") (unit 1) (value "HRO-TYPE-C-31-M-13") (footprint "42keebs:Molex-216990_GCT-USB45xx_HRO-TYPE-C-31-M-13x-PiMicro")
+      (reference "USB1") (unit 1) (value "HRO-TYPE-C-31-M-13") (footprint "42keebs:TYPE-C-31-M-14-PiMicro")
     )
     (path "/dec5c5bc-8eeb-4827-91ed-4f4f63dc849a"
       (reference "Y1") (unit 1) (value "X322512MSB4SI") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
