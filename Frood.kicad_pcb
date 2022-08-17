@@ -1997,7 +1997,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
       (tstamp aeed617e-c8f4-4622-89cf-2f984807928a)
     )
-    (fp_text value "HRO-TYPE-C-31-M-13" (at 0.025 -7.9) (layer "F.Fab") hide
+    (fp_text value "HRO-TYPE-C-31-M-14" (at 0.025 -7.9) (layer "F.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
       (tstamp 28cb6c93-e3cf-470b-87b1-c22b88bc77c8)
     )

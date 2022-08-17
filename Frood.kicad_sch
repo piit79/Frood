@@ -3779,7 +3779,7 @@
     (property "Reference" "USB1" (id 0) (at 29.21 31.75 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "HRO-TYPE-C-31-M-13" (id 1) (at 29.21 35.56 0)
+    (property "Value" "HRO-TYPE-C-31-M-14" (id 1) (at 29.21 35.56 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "42keebs:TYPE-C-31-M-14-PiMicro" (id 2) (at 34.925 52.705 0)
@@ -5062,7 +5062,7 @@
       (reference "U3") (unit 1) (value "SPX3819M5-L-3-3/TR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/22bd63ac-0dc8-46a4-b634-819479c04be4"
-      (reference "USB1") (unit 1) (value "HRO-TYPE-C-31-M-13") (footprint "42keebs:TYPE-C-31-M-14-PiMicro")
+      (reference "USB1") (unit 1) (value "HRO-TYPE-C-31-M-14") (footprint "42keebs:TYPE-C-31-M-14-PiMicro")
     )
     (path "/dec5c5bc-8eeb-4827-91ed-4f4f63dc849a"
       (reference "Y1") (unit 1) (value "X322512MSB4SI") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
