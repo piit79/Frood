@@ -1,26 +1,56 @@
 # The Frood
 
-**Warning: This project is still a work in progress and hasn't been fully verified.**
-
 <img src="https://github.com/piit79/Frood/blob/main/Frood-back.png?raw=true" width="200" align="right">
 <img src="https://github.com/piit79/Frood/blob/main/Frood.png?raw=true" width="200" align="right">
 
-The Frood is a Pro Micro-like microcontroller module based on a Raspberry Pi RP2040. It is physically and electrically compatible with Elite-C / nice!nano as much as possible.
+The Frood is a high-performance _and_ affordable Pro Micro drop-in replacement based on a Raspberry Pi RP2040. It is physically and electrically compatible with Elite-C/nice!nano as much as possible.
 
-It follows the [SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/18288) pinout with 5 more pins added along the bottom edge (like Elite-C), and USB data lines broken out in the top corners (like nice!nano).
+It follows the [SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/18288) pinout with 5 more pins (GPIO12-GPIO16) added along the bottom edge (like on Elite-C), and USB data lines broken out in the top corners (like nice!nano).
 
 ## Features
 
-* Raspberry Pi RP2040 MCU
-* 4 MB on-board QSPI flash memory
-* Mid-mounted USB-C socket and 1.0 mm PCB for low total height
+* Powerful dual-core Raspberry Pi RP2040 MCU
+* 2 MB on-board QSPI flash memory
+* Only 3.2 mm thick thanks to a mid-mounted USB-C socket
 * 500 mA linear regulator and resettable fuse
-* Pro Micro / Elite-C / nice!nano compatible pinout
-* 22 total available digital pins
-* 4 analogue pins
+* Combined Pro Micro / Elite-C / nice!nano / SparkFun Pro Micro RP2040 compatible pinout
+* 5 more I/O pins (GPIO12-GPIO16) added along the bottom edge 
+* 23 available digital pins for a maximum of 11x12 = 132 switches
+* 4 pins configurable as analogue inputs
 * USB D+/D- broken out
-* USB VBUS sensing for split keyboard side detection
+* USB power sensing on GPIO19 for split keyboard side detection
+* UF2 bootloader for drag & drop programming with no extra software required
 
 ## Availability
 
-The module will be available from [42keebs.eu](https://42keebs.eu/) in early September 2022.
+The Frood is now available from [42keebs.eu](https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/).
+
+## Revision history
+
+**Rev4** (28/09/2022) - **Confirmed working**
+* Use a 2 MB flash with correct supply voltage
+* Switch to GT-USB-7014C USB-C socket and a standard 1.6 mm PCB
+* Improve pin labels
+* Improve routing
+
+**Rev3** (18/08/2022) - **DO NOT USE!**
+* Rename to "Frood"
+* Use HRO-TYPE-C-31-M-14 for a fully mid-mounted socket with a 1.0 mm PCB
+* Use 500 mA fuse instead of 350 mA one
+* Improve layout (move USB termination resistors closer to MCU)
+* Still uses the same flash chip with an incorrect supply voltage (1.8-2.6 V)
+
+**Rev2** (16/08/2022) - **DO NOT USE!**
+* Rename to "PiMicro2040"
+* Fix crystal routing
+* Use Elite-C/nice!nano-like outline
+* Use mid-mounted USB-C connector (HRO-TYPE-C-31-M-13)
+* Use a "standard" Sparkfun Pro Micro-compatible pinout
+* Add 350 mA resettable fuse
+* Add VBUS sensing
+* Break-out USB data lines
+* Contains a critical error - flash chip with an incorrect supply voltage (1.8-2.6 V)
+
+**Rev1** (08/08/2022) - **DO NOT USE!**
+* Initial version with a top-mounted USB-C socket, a shorter outline and a custom pinout
+* Contains a critial error - incorrect crystal routing due to a mismatch between a 2-pin symbol and a 4-pin footprint
