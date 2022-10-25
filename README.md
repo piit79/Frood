@@ -1,7 +1,7 @@
 # The Frood
 
 <img src="https://github.com/piit79/Frood/blob/main/Frood-back.png?raw=true" width="200" align="right">
-<img src="https://github.com/piit79/Frood/blob/main/Frood.png?raw=true" width="200" align="right">
+<img src="https://github.com/piit79/Frood/blob/main/Frood-front.png?raw=true" width="200" align="right">
 
 The Frood is a high-performance _and_ affordable Pro Micro drop-in replacement based on a Raspberry Pi RP2040. It is physically and electrically compatible with Elite-C/nice!nano as much as possible.
 
@@ -17,9 +17,10 @@ It follows the [SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/182
 * 5 more I/O pins (GPIO12-GPIO16) added along the bottom edge 
 * 23 available digital pins for a maximum of 11x12 = 132 switches
 * 4 pins configurable as analogue inputs
-* USB D+/D- broken out
+* USB D+/D- broken out for use with an external USB socket/daughterboard
 * USB power sensing on GPIO19 for split keyboard side detection
 * UF2 bootloader for drag & drop programming with no extra software required
+* Orange indicator LED on pin GPIO17
 
 ## Availability
 
@@ -27,8 +28,14 @@ The Frood is now available from [42keebs.eu](https://42keebs.eu/shop/parts/contr
 
 ## Revision history
 
+**Rev5** (26/10/2022)
+* Improve USB socket position to match nice!nano
+* Add BOOT/RESET pads on the bottom of the PCB (when the buttons are not accessible)
+* Use a smaller crystal to gain some valuable space
+* Add an orange indicator LED on pin GPIO17 (inspired by the [0xB2](https://github.com/plut0nium/0xB2))
+
 **Rev4** (28/09/2022) - **Confirmed working**
-* Use a 2 MB flash with correct supply voltage
+* Use a 2 MB flash with correct supply voltage rating
 * Switch to GT-USB-7014C USB-C socket and a standard 1.6 mm PCB
 * Improve pin labels
 * Improve routing
