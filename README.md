@@ -10,23 +10,28 @@ It follows the [SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/182
 ## Features
 
 * Powerful dual-core Raspberry Pi RP2040 MCU
-* 2 MB on-board QSPI flash memory
+* 4 MB of on-board flash memory
 * Only 3.2 mm thick thanks to a mid-mounted USB-C socket
 * 500 mA linear regulator and resettable fuse
 * Combined Pro Micro / Elite-C / nice!nano / SparkFun Pro Micro RP2040 compatible pinout
 * 5 more I/O pins (GPIO12-GPIO16) added along the bottom edge 
-* 23 available digital pins for a maximum of 11x12 = 132 switches
+* 23 total available digital pins for a maximum of 11x12 = 132 switches
 * 4 pins configurable as analogue inputs
 * USB D+/D- broken out for use with an external USB socket/daughterboard
 * USB power sensing on GPIO19 for split keyboard side detection
 * UF2 bootloader for drag & drop programming with no extra software required
 * Orange indicator LED on pin GPIO17
+* Now with [official CircuitPython support](https://circuitpython.org/board/42keebs_frood/)
 
 ## Availability
 
 The Frood is now available from [42keebs.eu](https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/).
 
 ## Revision history
+
+**Rev6** (28/12/2022)
+* Use a 4 MB (32 Mbit) flash chip (needs a special configuration in QMK `config.h`: `#define RP2040_FLASH_GD25Q64CS`)
+* Tweak a few tracks
 
 **Rev5** (26/10/2022)
 * Improve USB socket position to match nice!nano
