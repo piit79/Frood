@@ -30,3 +30,5 @@ fp-info-cache
 
 jlcpcb/assembly/
 jlcpcb/gerber/
+jlcpcb/production_files/
+jlcpcb/rev*/
