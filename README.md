@@ -29,10 +29,15 @@ The Frood is now available from [42keebs.eu](https://42keebs.eu/shop/parts/contr
 
 ## Revision history
 
+**Rev8** (10/10/2023)
+* Add a 2-way solder jumper to select VBUS OUT or VBUS IN on the RAW pin
+* Use orange indicator LED again
+
 **Rev7** (23/06/2023)
 * Use a different 4 MB flash chip (Winbond W25Q32JVUUIQ) which will hopefully not need a special config
 * Use a higher-quality Panasonic reset/boot switches
 * Some routing tweaks
+* Bug: uses red indicator LED by mistake
 
 **Rev6** (28/12/2022)
 * Use a 4 MB (32 Mbit) flash chip (needs a special configuration in QMK `config.h`: `#define RP2040_FLASH_GD25Q64CS`)
