@@ -1,11 +1,11 @@
 # The Frood
 
-<img src="https://github.com/piit79/Frood/blob/main/Frood-back.png?raw=true" width="200" align="right">
-<img src="https://github.com/piit79/Frood/blob/main/Frood-front.png?raw=true" width="200" align="right">
+<img src="https://github.com/piit79/Frood/blob/main/Frood-bottom.png?raw=true" width="200" align="right">
+<img src="https://github.com/piit79/Frood/blob/main/Frood-top.png?raw=true" width="200" align="right">
 
 The Frood is a high-performance _and_ affordable Pro Micro drop-in replacement based on a Raspberry Pi RP2040. It is physically and electrically compatible with Elite-C/nice!nano as much as possible.
 
-It follows the [SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/18288) pinout with 5 more pins (GPIO12-GPIO16) added along the bottom edge (like on Elite-C), and USB data lines broken out in the top corners (like nice!nano).
+It follows the [SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/18288) pinout with 5 more pins (GPIO12-GPIO16) added along the bottom edge (like on Elite-C), and USB data lines broken out in the top corners.
 
 ## Features
 
@@ -14,8 +14,9 @@ It follows the [SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/182
 * Only 3.2 mm thick thanks to a mid-mounted USB-C socket
 * 500 mA linear regulator and resettable fuse
 * Combined Pro Micro / Elite-C / nice!nano / SparkFun Pro Micro RP2040 compatible pinout
-* 5 more I/O pins (GPIO12-GPIO16) added along the bottom edge 
-* 23 total available digital pins for a maximum of 11x12 = 132 switches
+* 5 more I/O pins (GPIO12-GPIO16) added along the bottom edge
+* 2 more I/O pins (GPIO10, GPIO11) can be converted from left-hand side GND pins by cutting a jumper
+* 23-25 total available digital pins for a maximum of 11x12 = 132 (or even 12x13 = 156) switches
 * 4 pins configurable as analogue inputs
 * USB D+/D- broken out for use with an external USB socket/daughterboard
 * USB power sensing on GPIO19 for split keyboard side detection
@@ -25,9 +26,15 @@ It follows the [SparkFun Pro Micro RP2040](https://www.sparkfun.com/products/182
 
 ## Availability
 
-The Frood is now available from [42keebs.eu](https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/).
+The Frood is available from [42keebs.eu](https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/).
 
 ## Revision history
+
+**Rev9** (03/01/2024)
+* Allows converting left-hand side GND pins into GPIO pins (GPIO10, GPIO11) by cutting PCB jumpers
+* VBUS IN/OUT solder jumper dropped, the RAW pin is now connected to VBUS after a Schottky diode/input of linear regulator before a resettable fuse
+* Uses a different (but equivalent) USB-C socket due to component shortage
+* Routing and silkscreen tweaks/improvements
 
 **Rev8** (10/10/2023)
 * Add a 2-way solder jumper to select VBUS OUT or VBUS IN on the RAW pin
